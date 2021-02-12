@@ -9,6 +9,7 @@ import com.aventstack.extentreports.Status;
 import ExtentReport.ExtentReportUtils;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
+import io.restassured.RestAssured;
 import stepDefinitions.mobilesteps.AppiumUtils;
 import io.cucumber.core.api.Scenario;
 
@@ -34,6 +35,7 @@ public class APIUtils extends ExtentReportUtils
 		LOGGER.info("I am inside setup");
 	    RestAssuredExtension restAssuredExtension=new RestAssuredExtension();
 		APIUtils.scenario=scenario;
+		
     	scenario.write("API Test Setup........................");
     	ExtentReportUtils.setExtent();
 	}

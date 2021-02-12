@@ -661,7 +661,7 @@ public static  String DisplaytableColoumnfieldName(WebElement element)
                 .switchTo().frame(waitForElementToBeVisibleBy(by));
     }
 
-    protected void scrollDownIntoViewBy(WebDriver driver,WebElement element) 
+    public static void scrollDownIntoViewBy(WebDriver driver,WebElement element) 
     {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true)", element);
@@ -677,9 +677,11 @@ public static  String DisplaytableColoumnfieldName(WebElement element)
     }
 
     public static void executeJavaScriptCommand(String jsCommand ,WebElement element)
-    {    JavascriptExecutor js = (JavascriptExecutor) driver;
-        ((JavascriptExecutor) driver).executeScript(jsCommand, element);
+    {   
+    	       JavascriptExecutor js = (JavascriptExecutor) driver;
+              js.executeScript(jsCommand, element);
     }
+    
    //Scroll down the page by pixels
    // js.executeScript( "window.scrollBy(0,1000)")
     

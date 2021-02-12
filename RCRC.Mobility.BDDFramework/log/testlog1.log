@@ -3172,3 +3172,299 @@ Driver info: driver.version: AndroidDriver
 2021-02-12 13:15:52,187 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
 2021-02-12 13:16:01,782 [main] INFO stepDefinitions.web.WebUtils - fail
 2021-02-12 13:16:02,795 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 15:09:16,868 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 15:09:40,285 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - Connection to https://192.168.59.12:8243 refused
+2021-02-12 15:09:40,287 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 15:09:40,290 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 15:10:01,351 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - Connection to https://192.168.59.12:8243 refused
+2021-02-12 15:10:01,352 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  tripRequest-shorttest-leasttime /trip/1.0.0/XML_TRIP_REQUEST2.....
+2021-02-12 15:10:01,352 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 15:10:01,353 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 15:10:01,353 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 15:10:01,353 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 15:10:01,365 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 15:10:22,382 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - Connection to https://192.168.59.12:8243 refused
+2021-02-12 15:10:22,382 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 15:10:22,382 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 15:10:22,383 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 15:10:22,383 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  tripRequest-shorttest-leastWalking/planning-trip/1.0.0/trip
+2021-02-12 15:10:22,383 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 15:10:22,384 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 15:10:22,384 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 15:10:22,384 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 16:47:52,043 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 16:47:57,268 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 16:47:57,270 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 16:48:01,765 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  tripRequest-shorttest-leasttime /trip/1.0.0/XML_TRIP_REQUEST2.....
+2021-02-12 16:48:01,766 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 16:48:01,768 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 16:48:01,768 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 16:48:01,768 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 16:48:01,777 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 16:48:04,709 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 16:48:04,709 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 16:48:04,710 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 16:48:04,710 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  tripRequest-shorttest-leastWalking/planning-trip/1.0.0/trip
+2021-02-12 16:48:04,710 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 16:48:04,710 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 16:48:04,710 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 16:48:04,711 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:13:13,953 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 17:13:19,879 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 17:13:19,887 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:13:21,791 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  tripRequest-shorttest-leasttime /trip/1.0.0/XML_TRIP_REQUEST2.....
+2021-02-12 17:13:21,792 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:13:21,796 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 17:13:21,796 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 17:13:21,796 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:13:21,806 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 17:13:24,115 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 17:13:24,119 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:13:24,119 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 17:13:24,120 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  tripRequest-shorttest-leastWalking/planning-trip/1.0.0/trip
+2021-02-12 17:13:24,120 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:13:24,121 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 17:13:24,121 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 17:13:24,123 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:14:20,342 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 17:14:28,241 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 17:14:28,243 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:14:32,569 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  tripRequest-shorttest-leasttime /trip/1.0.0/XML_TRIP_REQUEST2.....
+2021-02-12 17:14:32,570 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:14:32,572 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 17:14:32,573 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 17:14:32,573 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:14:32,582 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 17:14:34,800 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 17:14:34,801 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:14:34,802 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 17:14:34,802 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  tripRequest-shorttest-leastWalking/planning-trip/1.0.0/trip
+2021-02-12 17:14:34,803 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:14:34,803 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 17:14:34,804 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 17:14:34,806 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:48:36,334 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 17:48:40,901 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 17:48:40,903 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:48:59,125 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  tripRequest-shorttest-leasttime /trip/1.0.0/XML_TRIP_REQUEST2.....
+2021-02-12 17:48:59,125 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:48:59,127 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 17:48:59,128 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 17:48:59,128 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:48:59,136 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 17:49:01,013 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 17:49:01,013 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:49:01,013 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 17:49:01,014 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  tripRequest-shorttest-leastWalking/planning-trip/1.0.0/trip
+2021-02-12 17:49:01,014 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:49:01,014 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 17:49:01,014 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 17:49:01,015 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 17:58:28,843 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 17:58:38,863 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 17:58:38,869 [main] ERROR stepDefinitions.web.WebUtils - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LTILPUN23200595', ip: '192.168.15.94', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\10655479\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54179}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: abd9308b1662b4d1ce6a64f8caffe003
+2021-02-12 17:58:38,875 [main] INFO stepDefinitions.web.WebUtils - fail
+2021-02-12 17:58:38,880 [main] ERROR stepDefinitions.web.WebUtils - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LTILPUN23200595', ip: '192.168.15.94', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\10655479\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54179}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: abd9308b1662b4d1ce6a64f8caffe003
+2021-02-12 17:58:39,588 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 17:59:46,472 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 18:01:18,191 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:01:47,600 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 18:01:47,601 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:01:47,900 [main] ERROR stepDefinitions.web.SignIn_TestStepDefinition - Json file not found at path : C:\Users\10655479\git\repository11\RCRC.Mobility.BDDFramework\RCRC.Mobility.BDDFramework\src\test\resource\testDataResources\LoginDetails.json
+2021-02-12 18:01:47,902 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:01:48,921 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 18:09:24,490 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 18:11:03,516 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:11:59,442 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 18:11:59,442 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:11:59,722 [main] ERROR stepDefinitions.web.SignIn_TestStepDefinition - Json file not found at path : C:\Users\10655479\git\repository11\RCRC.Mobility.BDDFramework\RCRC.Mobility.BDDFramework\src\test\resource\testDataResources\LoginDetails.json
+2021-02-12 18:11:59,724 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:12:00,719 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 18:17:15,376 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 18:19:07,923 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 18:20:09,897 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:20:33,096 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 18:20:33,096 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:20:33,381 [main] ERROR stepDefinitions.web.SignIn_TestStepDefinition - Json file not found at path : C:\Users\10655479\git\repository11\RCRC.Mobility.BDDFramework\RCRC.Mobility.BDDFramework\src\test\resource\testDataResources\LoginDetails.json
+2021-02-12 18:20:33,383 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:20:34,372 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 18:23:51,085 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 18:25:04,643 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:25:51,303 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 18:25:51,303 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:29:47,852 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 18:31:02,452 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:32:17,027 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 18:32:17,027 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:37:37,829 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 18:38:38,628 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:39:43,472 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 18:39:43,472 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:40:43,488 [main] ERROR stepDefinitions.web.WebUtils - timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LTILPUN23200595', ip: '192.168.15.94', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\10655479\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 34a35c05944b01dd0de57b660198a311
+2021-02-12 18:42:03,276 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 18:43:04,633 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:44:49,143 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 18:44:49,144 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:54:35,979 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 18:55:32,607 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:55:55,780 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 18:55:55,780 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 18:56:26,198 [main] INFO stepDefinitions.web.WebUtils - fail
+2021-02-12 18:56:27,419 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 18:59:19,010 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 19:00:24,694 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:02:07,032 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 19:02:07,032 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:02:17,291 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:02:17,582 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - Message displayed login Successfully
+2021-02-12 19:02:17,582 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:02:18,941 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 19:03:14,248 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 19:04:18,934 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:07:02,044 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 19:08:42,188 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 19:10:02,691 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:10:22,499 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 19:10:22,501 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:10:27,766 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:10:28,126 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - Message displayed login Successfully
+2021-02-12 19:10:28,127 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:10:29,257 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 19:13:27,241 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 19:14:16,094 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:14:24,559 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 19:14:24,560 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:14:29,757 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:14:30,046 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - Message displayed login Successfully
+2021-02-12 19:14:30,046 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:14:30,360 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 19:21:26,923 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 19:23:32,900 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:23:58,569 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 19:23:58,571 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:24:03,611 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:24:03,973 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - Message displayed login Successfully
+2021-02-12 19:24:03,974 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:24:04,279 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 19:30:36,553 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 19:31:43,051 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:31:55,595 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 19:31:55,595 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:32:00,760 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:32:01,065 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - Message displayed login Successfully
+2021-02-12 19:32:01,066 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:32:01,360 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 19:34:46,991 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 19:36:04,652 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:36:16,882 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 19:36:16,883 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:36:22,128 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:36:22,475 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - Message displayed login Successfully
+2021-02-12 19:36:22,476 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 19:36:22,799 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 20:16:50,015 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 20:18:08,824 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:18:38,602 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 20:18:38,603 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:19:13,915 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:19:14,225 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - Message displayed login Successfully
+2021-02-12 20:19:14,226 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:19:14,547 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 20:22:37,763 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 20:23:25,639 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:23:34,431 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 20:23:34,433 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:24:09,650 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:24:10,006 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - Message displayed login Successfully
+2021-02-12 20:24:10,006 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:24:10,339 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 20:38:07,282 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 20:39:01,727 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:39:08,926 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 20:39:08,926 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:39:19,336 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User enters UserName englisheventcreator and Passwordtest
+2021-02-12 20:39:19,338 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:39:27,736 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - Message displayed login Successfully
+2021-02-12 20:39:27,737 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:39:28,335 [main] INFO stepDefinitions.web.WebUtils - Driver close
+2021-02-12 20:40:42,974 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 20:40:47,973 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 20:40:47,976 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:40:50,203 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  get_the_StopSeqCoord /planning-stopseqcoord/1.0.0.....
+2021-02-12 20:40:50,204 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:40:50,208 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 20:40:50,208 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 20:40:50,209 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:40:50,218 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 20:40:51,720 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 20:40:51,720 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:40:54,030 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  Weather Utilites /utilities-weather/1.0.0/weather.....
+2021-02-12 20:40:54,033 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:40:54,034 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 20:40:54,035 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 20:40:54,035 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:40:54,048 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 20:40:55,532 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 20:40:55,532 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:40:57,704 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  tripRequest-shorttest-leasttime /trip/1.0.0/XML_TRIP_REQUEST2.....
+2021-02-12 20:40:57,705 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:40:57,706 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 20:40:57,708 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 20:40:57,709 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:40:57,718 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 20:40:59,239 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 20:40:59,245 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:40:59,246 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 20:40:59,247 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  tripRequest-shorttest-leastWalking/planning-trip/1.0.0/trip
+2021-02-12 20:40:59,247 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:40:59,248 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 20:40:59,248 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 20:40:59,249 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:40:59,253 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 20:41:02,053 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 20:41:02,053 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:41:02,064 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 20:41:02,065 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform GET operation for  fastest slow/planning-trip/1.0.0/trip
+2021-02-12 20:41:02,066 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:41:02,067 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 20:41:02,068 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 20:41:02,068 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:41:02,073 [main] INFO stepDefinitions.apisteps.APIUtils - I am inside setup
+2021-02-12 20:41:03,643 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I perform authentication operation for /token with body
+2021-02-12 20:41:03,645 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:41:06,171 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:41:06,174 [main] ERROR stepDefinitions.apisteps.NonBDDStyleStepDefinition - null
+2021-02-12 20:41:06,174 [main] INFO stepDefinitions.apisteps.NonBDDStyleStepDefinition - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-12 20:41:06,175 [main] INFO stepDefinitions.apisteps.APIUtils - pass
+2021-02-12 20:41:37,254 [main] INFO stepDefinitions.mobilesteps.AppiumUtils - Before steps......
+2021-02-12 20:41:42,735 [main] INFO stepDefinitions.mobilesteps.AppiumUtils - Test Step is pass
+2021-02-12 20:42:42,817 [main] INFO stepDefinitions.mobilesteps.AppiumUtils - Driver Close
+2021-02-12 20:42:49,477 [main] INFO stepDefinitions.web.WebUtils - launching URL
+2021-02-12 20:43:47,833 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:44:06,982 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User Navigate to Login Page
+2021-02-12 20:44:06,982 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:44:17,228 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - User enters UserName englisheventcreator and Passwordtest
+2021-02-12 20:44:17,229 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:44:46,715 [main] INFO stepDefinitions.web.SignIn_TestStepDefinition - Message displayed login Successfully
+2021-02-12 20:44:46,715 [main] INFO stepDefinitions.web.WebUtils - Test Step is pass
+2021-02-12 20:44:47,254 [main] INFO stepDefinitions.web.WebUtils - Driver close

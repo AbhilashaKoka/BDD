@@ -9,16 +9,19 @@ import io.restassured.http.Header;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseOptions;
 import io.restassured.specification.RequestSpecification;
+import managers.FileReaderManager;
 
 public class RestAssuredExtension {
 	
 public static RequestSpecification Request;
+//public String baseURL="https://192.168.59.12:8243";
+public String baseURL= FileReaderManager.getInstance().getConfigReader().getBaseUrl();
 
 	public RestAssuredExtension()
 	{
 		//Arrange
 		    RequestSpecBuilder builder = new RequestSpecBuilder();
-	        builder.setBaseUri("https://192.168.59.12:8243");
+	        builder.setBaseUri(baseURL);
 	        builder.setContentType(ContentType.URLENC);
 	        RequestSpecification requestSpec = builder.build();
 	        Request = RestAssured.given().spec(requestSpec);

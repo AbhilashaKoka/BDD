@@ -5,6 +5,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseOptions;
 import io.restassured.specification.RequestSpecification;
+import managers.FileReaderManager;
 import Utility.APIConstant;
 import java.util.Map;
 
@@ -13,6 +14,7 @@ public class RestAssuredExtensionv2
     private RequestSpecBuilder builder = new RequestSpecBuilder();
     private String method;
     private String url;
+    public String baseURL= FileReaderManager.getInstance().getConfigReader().getBaseUrl();
     /**
      * RestAssuredExtensionv2 constructor to pass the initial settings for the the following method
      * @param uri
@@ -21,7 +23,7 @@ public class RestAssuredExtensionv2
      */
     public RestAssuredExtensionv2(String uri, String method, String token) {
         //Formulate the API url
-        this.url = "https://192.168.59.12:8243" + uri;
+        this.url = baseURL + uri;
         this.method = method;
         if(token != null)
         builder.addHeader("Authorization", "Bearer " + token);
@@ -50,7 +52,7 @@ public class RestAssuredExtensionv2
         return null;
     }
 
-    /**
+    /**;
      * Authenticate to get the token variable
      * @param body
      * @return string token

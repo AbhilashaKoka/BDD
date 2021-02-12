@@ -29,7 +29,7 @@ public class SignInPage {
 	@FindBy(how = How.XPATH, using = "//*[@id=\"wrapper\"]/header/div/div[1]/div[4]/a[1]")
 	 private WebElement chk_RememberMe;
 
-	@FindBy(how = How.XPATH, using = "//*[@id=\"_com_liferay_login_web_portlet_LoginPortlet_ozsx\"]")
+	@FindBy(how = How.XPATH, using = "//*[@id=\"_com_liferay_login_web_portlet_LoginPortlet_loginForm\"]/fieldset/div[2]/button[1]")
 	 private WebElement btn_SignIn;
 
 	@FindBy(how = How.XPATH, using = "//*[@id=\"wrapper\"]/header/div/div[1]/div[4]/a[1]")

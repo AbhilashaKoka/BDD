@@ -1,5 +1,7 @@
 package pageObjects;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -37,7 +39,7 @@ public class LogInPage
 	 @FindBy(how = How.XPATH, using = "//*[@id=\"_com_liferay_login_web_portlet_LoginPortlet_rememberMe\"]") 
 	 private WebElement chk_RememberMe;
 	 
-	 @FindBy(how = How.XPATH, using = "//*[@id=\"_com_liferay_login_web_portlet_LoginPortlet_itas\"]") 
+	 @FindBy(how = How.XPATH, using = "//*[@id=\"_com_liferay_login_web_portlet_LoginPortlet_loginForm\"]/fieldset/div[2]/button[1]") 
 	 private WebElement btn_SignIn;
 	 
 	 
@@ -91,19 +93,15 @@ public class LogInPage
 		 
 		boolean bool=false;
 		 try {			
-			 Thread.sleep(5000);
+			// Thread.sleep(5000);
 			 CommonUtils.Clicks(txt_ScreenName);
 			 CommonUtils.EnterText(txt_ScreenName, username);
 			 Thread.sleep(1000);
 			 CommonUtils.EnterText(txt_Password, password);	
 			 Thread.sleep(1000);
-//			 CommonUtils.SelectCheckBox(chk_RememberMe, rem);
-//			 Thread.sleep(1000);
-			 CommonUtils.executeJavaScriptCommand("arguments[0].scrollIntoView();",btn_SignIn);
-//			 JavascriptExecutor js = (JavascriptExecutor) driver;
-//			 js.executeScript("arguments[0].scrollIntoView();", btn_SignIn);
 			 CommonUtils.Clicks(btn_SignIn);
-			 Thread.sleep(1000);
+		     
+			 Thread.sleep(5000);
 			bool=true;
 		} catch (Exception e) {			
 			System.out.println(e.getCause());

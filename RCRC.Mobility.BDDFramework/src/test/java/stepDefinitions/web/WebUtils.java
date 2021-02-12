@@ -24,6 +24,7 @@ public class WebUtils extends ExtentReportUtils {
 	private static String url;
 	private static WebDriver driver;
 	String logPath=System.getProperty("user.dir")+"\\Configs\\log4j.properties";
+	
     static Logger LOGGER=LogManager.getLogger(WebUtils.class);
 
 	public WebUtils(TestContext context)
@@ -102,7 +103,7 @@ public class WebUtils extends ExtentReportUtils {
 	 public void teardown(Scenario scenario){
 	 try {
 	 WebUtils.scenario=scenario;
-     testContext.getWebDriverManager().closeDriver();
+   //  testContext.getWebDriverManager().closeDriver();
      LOGGER.info("Driver close");
 	  }
 		 catch(Exception e) 

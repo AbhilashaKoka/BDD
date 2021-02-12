@@ -5,18 +5,21 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseOptions;
 import io.restassured.specification.RequestSpecification;
+import managers.FileReaderManager;
+
 import java.util.Map;
 
 public class EARestAssuredV2 {
     private RequestSpecBuilder builder = new RequestSpecBuilder();
     private String method;
     private String url;
+    public String baseURL= FileReaderManager.getInstance().getConfigReader().getBaseUrl();
+   
 
     public EARestAssuredV2(String uri, String method, String token) {
-        this.url = "https://192.168.59.12:8243" + uri;
+        this.url = baseURL + uri;
         this.method = method;
-        //Assuming we are using only one type of token across the framework,
-        //else we need to pass token as parameter to the constructor
+        //Assuming we are using only one type of token across the framework,else we need to pass token as parameter to the constructor
         if (token != null)
         builder.addHeader("Authorization", "Bearer " + token);
     }

@@ -5,7 +5,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-features = "C:\\Users\\10655479\\git\\repository10\\RCRC.Mobility.BDDFramework\\src\\test\\resource\\feature\\mobile",
+features = "C:\\Users\\10655479\\git\\repository11\\RCRC.Mobility.BDDFramework\\src\\test\\resource\\feature\\mobile",
 glue={"stepDefinitions.mobilesteps"}, 
 dryRun = false,
 monochrome = true,

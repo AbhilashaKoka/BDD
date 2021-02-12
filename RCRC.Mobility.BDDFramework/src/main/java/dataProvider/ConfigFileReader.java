@@ -107,7 +107,7 @@ public class ConfigFileReader {
 		else throw new RuntimeException("Report Config Path not specified in the Configuration.properties file for the Key:reportConfigPath");		
 	}
 	public String getBaseUrl() {
-        String baseUrl = properties.getProperty("base_Url");
+        String baseUrl = properties.getProperty("baseURL");
         if(baseUrl != null) return baseUrl;
         else throw new RuntimeException("base_Url not specified in the Configuration.properties file.");
     }
@@ -118,10 +118,10 @@ public class ConfigFileReader {
         else throw new RuntimeException("user_Id not specified in the Configuration.properties file.");
     }
     
-    public String getLoggerPath() {
-    	String logPath=properties.getProperty("LogPath");
-		if(logPath !=null)return logPath;
-		else throw new RuntimeException("LogPath not specified in the Configuration.properties file");    	
-    }
+//    public String getLoggerPath() {
+//    	String logPath=properties.getProperty("LogPath");
+//		if(logPath !=null)return logPath;
+//		else throw new RuntimeException("LogPath not specified in the Configuration.properties file");    	
+//    }
 
 }

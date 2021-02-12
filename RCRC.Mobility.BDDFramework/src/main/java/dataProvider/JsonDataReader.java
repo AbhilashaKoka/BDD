@@ -12,7 +12,7 @@ import testData.LoginDetails;
 
 	
 public class JsonDataReader {
-	private final String loginFilePath = FileReaderManager.getInstance().getConfigReader().getTestDataResourcePath() + "LoginDetails.json";
+	private final String loginFilePath = System.getProperty("user.dir")+FileReaderManager.getInstance().getConfigReader().getTestDataResourcePath() + "LoginDetails.json";
 	//private List<LoginDetails> logindetails;
 	
 	public JsonDataReader()
