@@ -1,0 +1,312 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>RCRC</groupId>
+  <artifactId>RCRC.Mobility.BDDFramework</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>RCRC.Mobility.BDDFramework</name>
+  <url>http://maven.apache.org</url>
+  <developers>
+		<developer>
+			<name>AbhilashaKoka</name>
+			<id>10655479</id>
+			<organization>LTIInfotech</organization>
+			<email>abhilasha.koka@lntinfotech.com</email>
+			<roles>
+				<role>QA</role>
+			</roles>
+		</developer>
+	</developers>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		 <maven.compiler.source>1.8</maven.compiler.source>
+         <maven.compiler.target>1.8</maven.compiler.target>
+		 <!-- <testng.version>7.1.0</testng.version>
+		<restassured.version>4.2.0</restassured.version>-->
+	</properties> 
+  <dependencies>
+ <!--  <dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+		</dependency>-->
+  <dependency>
+<groupId>org.uncommons</groupId>
+<artifactId>reportng</artifactId>
+<version>1.1.4</version>
+<scope>test</scope>
+<exclusions>
+<exclusion>
+<groupId>org.testng</groupId>
+<artifactId>testng</artifactId>
+</exclusion>
+</exclusions>
+</dependency>
+<dependency>
+<groupId>com.google.inject</groupId>
+<artifactId>guice</artifactId>
+<version>3.0</version>
+</dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>gherkin</artifactId>
+    <version>5.1.0</version>
+</dependency>  
+  <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>4.8.1</version>
+</dependency> 
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>4.8.1</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>4.8.1</version>
+</dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>4.8.1</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-picocontainer</artifactId>
+    <version>4.8.1</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+<groupId>org.mockito</groupId>
+<artifactId>mockito-all</artifactId>
+<version>2.0.2-beta</version>
+</dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-jvm-deps</artifactId>
+    <version>1.0.6</version>
+    <scope>provided</scope>
+</dependency>
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.8.6</version>
+    <scope>provided</scope>
+</dependency>
+<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20190722</version>
+		</dependency>
+<dependency>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>cobertura-maven-plugin</artifactId>
+    <version>2.7</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+	<groupId>com.vimalselvam</groupId>
+	<artifactId>cucumber-extentsreport</artifactId>
+	<version>3.0.2</version>
+	</dependency>
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>3.1.5</version>
+</dependency>
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports-cucumber4-adapter</artifactId>
+    <version>1.0.12</version>
+    <exclusions>
+				<exclusion>
+					<groupId>io.cucumber</groupId>
+					<artifactId>cucumber-java</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>io.cucumber</groupId>
+					<artifactId>cucumber-core</artifactId>
+				</exclusion>
+			</exclusions>
+    </dependency> 
+<dependency>
+ <groupId>net.masterthought</groupId>
+<artifactId>cucumber-reporting</artifactId>
+<version>5.0.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>4.1.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>4.1.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml-schemas</artifactId>
+    <version>4.1.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-scratchpad</artifactId>
+    <version>4.1.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>ooxml-schemas</artifactId>
+    <version>1.4</version>
+</dependency>
+       <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.7</version>
+        </dependency> 
+        <dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>4.1.2</version>
+</dependency>
+        
+ <dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.3.1</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+        <version>4.2.2</version>
+    </dependency>
+   <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
+            <scope>provided</scope>
+   </dependency>
+  <dependency>
+     <groupId>junit</groupId>
+     <artifactId>junit</artifactId>
+     <version>4.12</version>
+     <scope>test</scope>
+ </dependency>
+     <dependency>
+     <groupId>org.seleniumhq.selenium</groupId>
+     <artifactId>selenium-java</artifactId>
+     <version>3.7.0</version>
+ </dependency>
+     <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-server</artifactId>
+    <version>4.0.0-alpha-2</version>
+</dependency> 
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-api</artifactId>
+    <version>3.141.59</version>
+</dependency>
+<dependency>
+    <groupId>io.appium</groupId>
+    <artifactId>java-client</artifactId>
+    <version>6.1.0</version>
+    <scope>provided</scope>
+</dependency>
+<dependency>
+	<groupId>org.seleniumhq.selenium</groupId>
+	<artifactId>selenium-remote-driver</artifactId>
+	<version>3.141.59</version>
+</dependency>
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>
+    <dependency>
+   <groupId>com.sun</groupId>
+   <artifactId>tools</artifactId>
+   <version>1.8</version>
+   <scope>system</scope>
+   <systemPath>${JAVA_HOME}\lib\tools.jar</systemPath>
+ </dependency> 
+  </dependencies>
+  <build>
+   <plugins>     
+         <plugin>
+             <groupId>org.apache.maven.plugins</groupId>
+             <artifactId>maven-compiler-plugin</artifactId>
+             <version>3.8.1</version>
+             <configuration>
+              <source>1.8</source>
+             <target>1.8</target>
+           </configuration>
+       </plugin>          
+       <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.19</version>     
+       <configuration>
+       <includes>
+            <include>**/*TestRunner.java</include>
+          </includes>     
+         <!--<suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>-->
+          <testFailureIgnore>true</testFailureIgnore>
+        </configuration>       
+      </plugin>
+      <plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-resources-plugin</artifactId>
+     <version>2.7</version>
+      </plugin>
+     <plugin>
+  <groupId>net.masterthought</groupId>
+            <artifactId>maven-cucumber-reporting</artifactId>
+            <version>5.4.0</version>
+            <executions>
+                <execution>
+                    <id>execution</id>
+                    <phase>verify</phase>
+                    <goals>
+                        <goal>generate</goal>
+                    </goals>
+                       <configuration>
+                        <projectName>RCRC.Mobility.BDDFramework</projectName>
+                        <outputDirectory>${project.build.directory}/cucumber-reports-html</outputDirectory>
+                        <inputDirectory>${project.build.directory}</inputDirectory>
+                        <jsonFiles>
+                         <!--  <param>**/*.json</param>-->                         
+                          <jsonFile>**/*cucumber.json</jsonFile>                         
+                         </jsonFiles>
+                      <!-- <classificationDirectory>${project.build.directory}/classifications</classificationDirectory> -->    
+                            <classificationFiles>
+                                     <param>**/*.properties</param>
+                                    <param>other.properties</param>
+                            </classificationFiles>
+                            <parallelTesting>false</parallelTesting>
+                            <!-- optional, set true to group features by its Ids -->
+                            <mergeFeaturesById>false</mergeFeaturesById>
+                            <!-- optional, set true to get a final report with latest results of the same test from different test runs -->
+                            <mergeFeaturesWithRetest>false</mergeFeaturesWithRetest>
+                            <!-- optional, set true to fail build on test failures -->
+                            <checkBuildResult>false</checkBuildResult>                                          
+                        <skippedFails>true</skippedFails>
+                       </configuration>
+                </execution>
+            </executions>
+        </plugin>
+  </plugins>      
+   </build>
+</project>

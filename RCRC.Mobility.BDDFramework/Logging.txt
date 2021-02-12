@@ -1,0 +1,8 @@
+Jan 29, 2021 11:33:02 AM Utility.useLogger doSomeThingAndLog
+SEVERE: Info Log
+Jan 29, 2021 11:33:02 AM Utility.useLogger doSomeThingAndLog
+SEVERE: Info Log
+Jan 29, 2021 11:33:02 AM Utility.useLogger doSomeThingAndLog
+WARNING: Info Log
+Jan 29, 2021 11:33:02 AM Utility.useLogger doSomeThingAndLog
+INFO: Info Log

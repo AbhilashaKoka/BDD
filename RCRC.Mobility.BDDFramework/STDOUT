@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.298681">
+<testcase classname="Verify Get method using the Brearer Authentication Tokens for Weather Utilities" name="TC001_Verify GET operation for Weather Utilities" time="12.298681">
+<system-out><![CDATA[Given I perform authentication operation for "/token" with body.............passed
+When I perform GET operation for  Weather Utilites "/utilities-weather/1.0.0/weather".passed
+Then I should see statuscode as "HTTP/1.1 200 OK"...........................passed
+]]></system-out>
+</testcase>
+</testsuite>
