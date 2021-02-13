@@ -64,7 +64,7 @@ final static Logger LOGGER=LogManager.getLogger(NonBDDStyleStepDefinition.class)
 	    	RestAssuredExtensionv2 restAssuredExtensionv2=new RestAssuredExtensionv2(uri, "GET", token);
 	    	response=restAssuredExtensionv2.ExecuteWithQueryParams(queryparams);
 	        System.out.println(response.getBody().print());
-	        
+	            
 	        }
 	    catch(Exception ex)
 	    {

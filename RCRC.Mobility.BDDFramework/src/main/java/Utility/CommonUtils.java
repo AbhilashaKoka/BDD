@@ -18,7 +18,11 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import com.google.common.base.Function;
 import java.util.Date;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
 
 
@@ -730,6 +734,31 @@ public static  String DisplaytableColoumnfieldName(WebElement element)
         };
         return wait.until(function);
        }
+    
+    public BufferedWriter ConsoleOutToFile() throws IOException {
+
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter out = new BufferedWriter(new FileWriter("//output.txt"));
+        try {
+            String inputLine = null;
+            do {
+                inputLine=in.readLine();
+                out.write(inputLine);
+                out.newLine();
+            } 
+            while (!inputLine.equalsIgnoreCase("eof"));
+            System.out.print("Write Successful");
+        } 
+        catch(IOException e1) 
+        {
+            System.out.println("Error during reading/writing");
+        } 
+        finally {
+            out.close();
+            in.close();
+        }
+        return out;
+    }
 
    
    }
