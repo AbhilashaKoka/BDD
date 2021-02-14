@@ -1,4 +1,4 @@
-package Utility;
+package apiPageObjects;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -7,6 +7,8 @@ import io.restassured.response.ResponseOptions;
 import io.restassured.specification.RequestSpecification;
 import managers.FileReaderManager;
 import Utility.APIConstant;
+import Utility.APIConstant.ApiMethods;
+
 import java.util.Map;
 
 public class RestAssuredExtensionv2 
@@ -14,15 +16,16 @@ public class RestAssuredExtensionv2
     private RequestSpecBuilder builder = new RequestSpecBuilder();
     private String method;
     private String url;
-    public String baseURL= FileReaderManager.getInstance().getConfigReader().getBaseUrl();
+//    public String baseURL= FileReaderManager.getInstance().getConfigReader().getBaseUrl();
     /**
      * RestAssuredExtensionv2 constructor to pass the initial settings for the the following method
      * @param uri
      * @param method
      * @param token
      */
-    public RestAssuredExtensionv2(String uri, String method, String token) {
+    public RestAssuredExtensionv2(String uri, String method, String token, String baseURL) {
         //Formulate the API url
+    	RestAssured.baseURI=baseURL;
         this.url = baseURL + uri;
         this.method = method;
         if(token != null)

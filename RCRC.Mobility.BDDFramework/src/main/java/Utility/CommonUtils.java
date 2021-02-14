@@ -1,6 +1,7 @@
 package Utility;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 import java.util.TimeZone;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
@@ -17,9 +18,12 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import com.google.common.base.Function;
+import com.google.common.io.Files;
+
 import java.util.Date;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -758,6 +762,48 @@ public static  String DisplaytableColoumnfieldName(WebElement element)
             in.close();
         }
         return out;
+    }
+    public static void WriteResponseOnJosonFile(byte[] responseasstringbyte, File nameofFile) throws IOException 
+    {
+    	try {
+    		if(nameofFile.exists())
+    		{
+    			 System.out.println(nameofFile.getName() +"File already exists!!!");
+    	          if (nameofFile.delete())
+		         {
+                  System.out.println(nameofFile.getName() + " is deleted!!!");
+                    if (nameofFile.createNewFile())
+		             { 
+             	       System.out.println(nameofFile.getName() +"File is created!!!");
+		             }
+                  } 
+
+             } 
+		else
+		{
+			  System.out.println(nameofFile.getName() +"\n Sorry, unable to delete the file, file not exist!!!");
+			  if (nameofFile.createNewFile())
+		        { 
+      	        System.out.println(nameofFile.getName() +"\n File is created!!!");	
+      	        System.out.println(nameofFile.getAbsoluteFile());
+		     }
+        }            
+		Scanner scanner = new Scanner(nameofFile);
+		Files.write(responseasstringbyte, nameofFile);
+//		InputStream responseAsInputStream = ((ResponseBodyData) response).asInputStream();
+//		byte[] responseAsInputStreamByte = new byte[responseAsInputStream.available()];
+//		responseAsInputStream.read(responseAsInputStreamByte);			
+//		File targetFileForInputStream = new File(System.getProperty("user.dir")+"/APIresource/targetFileForInputStream.json");
+//		Files.write(responseAsInputStreamByte, targetFileForInputStream);
+//		byte[] responseAsByteArray = ((ResponseBodyData) response).asByteArray();
+//		File targetFileForByteArray = new File(System.getProperty("user.dir")+"/APIresource/targetFileForByteArray.json");
+//		Files.write(responseAsByteArray, targetFileForByteArray);
+    	}
+    	catch(Exception ex)
+    	{
+    	System.out.println(	ex.getCause());
+    	
+    	}
     }
 
    

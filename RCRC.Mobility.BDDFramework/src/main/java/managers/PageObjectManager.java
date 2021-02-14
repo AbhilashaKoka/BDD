@@ -19,8 +19,7 @@ import pageObjects.SignInPage;
 //in the case of multiple-step definition files, we will be creating an object of Pages again and again
 public class PageObjectManager
 {
-	private WebDriver driver;
-	
+	private WebDriver driver;	
 	private LogInPage loginPage;
 	private PrivacyErrorPage privacyErrorPage;
 	private AboutKAPRATPage aboutKAPRATPage;
@@ -36,9 +35,7 @@ public class PageObjectManager
 	
 	public PageObjectManager(WebDriver driver) {
 	this.driver = driver;
-	}
-	
-	
+	}	
 	
 	
 	public SignInPage getSignInPage() {

@@ -16,7 +16,7 @@ import io.cucumber.java.en.When;
 import managers.FileReaderManager;
 
 
-public class LoginMobileTestStepDefinition{
+public class LoginMobileTestStepDefinition extends MobileBase_TestStepDefinition{
 	MobileTestContext mobiletestContext;
 	public static AndroidDriver<MobileElement> mobiledriver=null;
 	private String MobileURL=null;
@@ -24,6 +24,7 @@ public class LoginMobileTestStepDefinition{
 
 	public LoginMobileTestStepDefinition(MobileTestContext context)  
 	{	
+		super(context);
 		mobiletestContext = context;
 		mobiledriver =mobiletestContext.getMobileDriverManager().getMobileDriver();
 		//MobileURL=FileReaderManager.getInstance().getConfigReader().getApplicationUrl();

@@ -19,7 +19,7 @@ import pageObjects.SignInPage;
 import testData.LoginDetails;
 
 
-public class ForgotPassword_StepDefinitions {
+public class ForgotPassword_StepDefinitions  extends WebBase_TestStepDefinition{
 	
 
 	private WebDriver driver=null; 
@@ -33,6 +33,7 @@ public class ForgotPassword_StepDefinitions {
 
 	 
 	 public ForgotPassword_StepDefinitions(TestContext context) {
+		 super(context);
 		  testContext = context;
 		  privacyErr=testContext.getPageObjectManager().getPrivacyErrorPage();
 		  forgotPasswordPage = testContext.getPageObjectManager().getForgotPasswordPage();

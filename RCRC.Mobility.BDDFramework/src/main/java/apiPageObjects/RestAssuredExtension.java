@@ -1,4 +1,4 @@
-package Utility;
+package apiPageObjects;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Map;
@@ -14,11 +14,11 @@ import managers.FileReaderManager;
 public class RestAssuredExtension {
 	
 public static RequestSpecification Request;
-//public String baseURL="https://192.168.59.12:8243";
-public String baseURL= FileReaderManager.getInstance().getConfigReader().getBaseUrl();
+//public String baseURL= FileReaderManager.getInstance().getConfigReader().getBaseUrl();
 
-	public RestAssuredExtension()
+	public RestAssuredExtension(String baseURL)
 	{
+		   RestAssured.baseURI=baseURL;
 		//Arrange
 		    RequestSpecBuilder builder = new RequestSpecBuilder();
 	        builder.setBaseUri(baseURL);

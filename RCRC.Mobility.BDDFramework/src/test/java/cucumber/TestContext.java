@@ -3,7 +3,8 @@ import managers.MobileDriverManager;
 import managers.PageObjectManager;
 import managers.WebDriverManager;
 
-
+//Test Context class to hold all the objects state.
+//Text Context class shall encompass all information your Steps files are using
 public class TestContext{
 	private WebDriverManager webDriverManager;
 	private PageObjectManager pageObjectManager;
@@ -13,11 +14,13 @@ public class TestContext{
 	
 	public TestContext()
 	 {
-		
-		//if(driver == null) driver = createDriver();
-			webDriverManager = new WebDriverManager();		
+		if(webDriverManager==null)
+		{
+			webDriverManager=new WebDriverManager();
+		  	//webDriverManager = new WebDriverManager();
+		}
 		    pageObjectManager =  new PageObjectManager(webDriverManager.getDriver());
-//		    mobileDriverManager=new MobileDriverManager();
+
 	 
 	 }
 	

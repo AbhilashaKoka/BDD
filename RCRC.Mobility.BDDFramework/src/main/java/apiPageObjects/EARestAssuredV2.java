@@ -1,4 +1,4 @@
-package Utility;
+package apiPageObjects;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
@@ -8,6 +8,9 @@ import io.restassured.specification.RequestSpecification;
 import managers.FileReaderManager;
 
 import java.util.Map;
+
+import Utility.APIConstant;
+import Utility.APIConstant.ApiMethods;
 
 public class EARestAssuredV2 {
     private RequestSpecBuilder builder = new RequestSpecBuilder();

@@ -77,15 +77,15 @@ public class WebDriverManager {
         switch (driverType)
         {	    
         case FIREFOX :
-        	System.setProperty(GECKO_DRIVER_PROPERTY, FileReaderManager.getInstance().getConfigReader().getGeckoDriverPath());
+        	System.setProperty(GECKO_DRIVER_PROPERTY, System.getProperty("user.dir")+FileReaderManager.getInstance().getConfigReader().getGeckoDriverPath());
         	driver = new FirefoxDriver();
 	    	break;
         case CHROME : 
-        	System.setProperty(CHROME_DRIVER_PROPERTY, FileReaderManager.getInstance().getConfigReader().getChromeDriverPath());
+        	System.setProperty(CHROME_DRIVER_PROPERTY, System.getProperty("user.dir")+FileReaderManager.getInstance().getConfigReader().getChromeDriverPath());
         	driver = new ChromeDriver();
     		break;
         case INTERNETEXPLORER : 
-    		System.setProperty(INTERNETEXPLORER_DRIVER_PROPERTY, FileReaderManager.getInstance().getConfigReader().getIEDriverPath());
+    		System.setProperty(INTERNETEXPLORER_DRIVER_PROPERTY,System.getProperty("user.dir")+ FileReaderManager.getInstance().getConfigReader().getIEDriverPath());
            	driver = new InternetExplorerDriver();
     		break;
         }
@@ -103,7 +103,7 @@ public class WebDriverManager {
 		   {
 		    case INTERNETEXPLORER:
 		    String nodeURL1 = "http://10.0.0.7:4444/wd/hub";
-		    System.setProperty(INTERNETEXPLORER_DRIVER_PROPERTY,FileReaderManager.getInstance().getConfigReader().getIEDriverPath());
+		    System.setProperty(INTERNETEXPLORER_DRIVER_PROPERTY,System.getProperty("user.dir")+FileReaderManager.getInstance().getConfigReader().getIEDriverPath());
 		    DesiredCapabilities capability1 = DesiredCapabilities.internetExplorer();
 		    capability1.setBrowserName("internet explorer");
 		    capability1.setPlatform(Platform.WIN8_1);
@@ -118,14 +118,14 @@ public class WebDriverManager {
 //			InternetExplorerDriver driver = new InternetExplorerDriver(service);
 		   case FIREFOX:
 		   String[] nodeURL2 = {"http://10.0.0.4:5566/wd/hub"} ;
-		   System.setProperty(GECKO_DRIVER_PROPERTY, FileReaderManager.getInstance().getConfigReader().getGeckoDriverPath());
+		   System.setProperty(GECKO_DRIVER_PROPERTY, System.getProperty("user.dir")+FileReaderManager.getInstance().getConfigReader().getGeckoDriverPath());
 		   DesiredCapabilities capability = DesiredCapabilities.firefox();
 		   capability.setBrowserName("firefox");
 		   capability.setPlatform(Platform.WIN8_1);
 		   break;
 		   case CHROME:
 		   String nodeURL3 = "http://169.254.111.81:1339";
-		   System.setProperty(CHROME_DRIVER_PROPERTY,FileReaderManager.getInstance().getConfigReader().getChromeDriverPath());
+		   System.setProperty(CHROME_DRIVER_PROPERTY,System.getProperty("user.dir")+FileReaderManager.getInstance().getConfigReader().getChromeDriverPath());
 		   DesiredCapabilities capability2 = DesiredCapabilities.chrome();
 		   capability2.setBrowserName("chrome");
 		   capability2.setPlatform(Platform.WIN8_1);

@@ -16,7 +16,7 @@ import pageObjects.PrivacyErrorPage;
 import pageObjects.RegisterPage;
 import testData.LoginDetails;
 
-    public class Register_TestStepDefinition {
+    public class Register_TestStepDefinition extends WebBase_TestStepDefinition {
 	private WebDriver driver=null; 
 	TestContext testContext;
 	 LogInPage loginPage;
@@ -26,6 +26,7 @@ import testData.LoginDetails;
 	 private static Logger LOGGER=LogManager.getLogger(Register_TestStepDefinition.class);
 	
 	public Register_TestStepDefinition(TestContext context) {
+		super(context);
 		 testContext = context;
 		  registerPage = testContext.getPageObjectManager().getRegisterPage();
 		  loginPage = testContext.getPageObjectManager().getLogInPage();

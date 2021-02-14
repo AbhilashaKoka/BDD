@@ -15,7 +15,7 @@ import pageObjects.PrivacyErrorPage;
 import pageObjects.RegisterPage;
 import testData.LoginDetails;
 
-public class Event_TestStepDefinition {
+public class Event_TestStepDefinition extends WebBase_TestStepDefinition {
 	 String title=null;
 	 String EventsName;
 	private WebDriver driver=null; 
@@ -26,7 +26,8 @@ public class Event_TestStepDefinition {
 	 LogInPage loginPage;
 	 private static Logger LOGGER=LogManager.getLogger(Event_TestStepDefinition.class);
 	 
-	 public Event_TestStepDefinition(TestContext context) {		 
+	 public Event_TestStepDefinition(TestContext context) {	
+		 super(context);
 		  testContext = context;
 		  eventPage = testContext.getPageObjectManager().getEventsPage();
 		  privacyErr=testContext.getPageObjectManager().getPrivacyErrorPage();

@@ -1,11 +1,12 @@
 package cucumber;
-
 import java.util.HashMap;
 import java.util.Map;
 import enums.Context;
 import enums.DocumentType;
 
-
+//Scenario Context class holds the test data information explicitly. 
+//It helps you store values in a key-value pair between the steps. Moreover, 
+//it helps in organizing step definitions better rather than using private variables in step definition classes
 public class ScenarioContext {
 	 
 	private  Map<String, Object> scenarioContext;

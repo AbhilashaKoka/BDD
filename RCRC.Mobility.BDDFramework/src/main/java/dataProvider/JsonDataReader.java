@@ -9,8 +9,6 @@ import com.google.gson.Gson;
 import managers.FileReaderManager;
 import testData.LoginDetails;
 
-
-	
 public class JsonDataReader {
 	private final String loginFilePath = System.getProperty("user.dir")+FileReaderManager.getInstance().getConfigReader().getTestDataResourcePath() + "LoginDetails.json";
 	//private List<LoginDetails> logindetails;
@@ -19,7 +17,6 @@ public class JsonDataReader {
 	{		
 	//logindetails = getLoginDetailsData();
 	}
-	
 	
 	//This is a private method,
 	//which has the logic implemented to read the Customer Json 
@@ -35,7 +32,7 @@ public class JsonDataReader {
 		}
 		catch(FileNotFoundException e)
 		{
-			throw new RuntimeException("Json file not found at path : " + loginFilePath);
+	   throw new RuntimeException("Json file not found at path : " + loginFilePath);
 		}
 		finally {
 			try { 

@@ -32,7 +32,8 @@ public class WebUtils extends ExtentReportUtils {
 		testContext = context;
 		path=FileReaderManager.getInstance().getConfigReader().getChromeDriverPath();
 	    driver=testContext.getWebDriverManager().getDriver();
-        url=FileReaderManager.getInstance().getConfigReader().getApplicationUrl();   
+        url=FileReaderManager.getInstance().getConfigReader().getApplicationUrl(); 
+        
 	}
 	
 
@@ -103,7 +104,7 @@ public class WebUtils extends ExtentReportUtils {
 	 public void teardown(Scenario scenario){
 	 try {
 	 WebUtils.scenario=scenario;
-   //  testContext.getWebDriverManager().closeDriver();
+     testContext.getWebDriverManager().closeDriver();
      LOGGER.info("Driver close");
 	  }
 		 catch(Exception e) 
