@@ -128,7 +128,7 @@ public class Get_tripRequest_shorttest_TestStepDefinition {
 		       test.log(Status.INFO, "My test has been ended.....");
 		       String responseAsString= response.getBody().asString();
 		        byte[] responseAsStringByte = responseAsString.getBytes();
-				File targetFileForString = new File(System.getProperty("user.dir")+"//APIResource//TripcodestopIdlinetimedate.json");
+				File targetFileForString = new File(System.getProperty("user.dir")+"//APIResource//tripRequestshorttestleastWalking.json");
 				CommonUtils.WriteResponseOnJosonFile(responseAsStringByte,targetFileForString);
 			
 			}

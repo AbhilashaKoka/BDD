@@ -13,10 +13,10 @@ import managers.FileReaderManager;
 import pageObjects.*;
 import testData.LoginDetails;
 
-public class SignIn_TestStepDefinition  extends WebBase_TestStepDefinition{
+public class SignIn_TestStepDefinition  extends WebCommon_TestStepDefinition{
 	 private WebDriver driver=null; 
 	 TestContext testContext;
-	 LogInPage loginPage;
+	  SignInPage signInPage;
 	 PrivacyErrorPage privacyErr;	 
 	 String title=null;	
 	 RegisterPage registerPage;	 
@@ -27,7 +27,7 @@ public class SignIn_TestStepDefinition  extends WebBase_TestStepDefinition{
 		  super(context);
 		  testContext = context;
 		  registerPage = testContext.getPageObjectManager().getRegisterPage();
-		  loginPage = testContext.getPageObjectManager().getLogInPage();
+		  signInPage=testContext.getPageObjectManager().getSignInPage();
 		  privacyErr=testContext.getPageObjectManager().getPrivacyErrorPage();
 		  title=testContext.getWebDriverManager().getTitle();	
 		  driver =testContext.getWebDriverManager().getDriver();		 
@@ -39,7 +39,7 @@ public class SignIn_TestStepDefinition  extends WebBase_TestStepDefinition{
 	public void user_Navigate_to_LogIn_Page() throws Throwable {
 		try {
 		Wait.untilPageLoadComplete(driver);
-		if(loginPage.ClickOnSignIn()==true)
+		if(signInPage.ClickOnSignIn()==true)
 		{	
 		 assertTrue(true);
 		 LOGGER.info("User Navigate to Login Page");
@@ -62,7 +62,7 @@ public class SignIn_TestStepDefinition  extends WebBase_TestStepDefinition{
 		    String uname=login.username;
 			String pwd=login.password;
 			String chkbox=login.rememberme;	
-			  if(loginPage.LoginIn_SignInPage(uname, pwd, chkbox)==true)
+			  if(signInPage.LoginIn_SignInPage(uname, pwd, chkbox)==true)
 				{
 				  assertTrue(true);
 				  LOGGER.info("User enters UserName " +uname+" and Password"+pwd+"");

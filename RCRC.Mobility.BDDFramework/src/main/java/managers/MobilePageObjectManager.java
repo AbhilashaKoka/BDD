@@ -3,7 +3,7 @@ package managers;
 import io.appium.java_client.MobileDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
-import pageObjects.LogInPage;
+
 import pageObjects.PrivacyErrorPage;
 import pageObjects.SignInPage;
 

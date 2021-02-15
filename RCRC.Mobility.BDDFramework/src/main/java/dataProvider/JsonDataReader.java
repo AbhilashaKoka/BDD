@@ -18,8 +18,7 @@ public class JsonDataReader {
 	//logindetails = getLoginDetailsData();
 	}
 	
-	//This is a private method,
-	//which has the logic implemented to read the Customer Json 
+	//FYI:This is a private method,which has the logic implemented to read the Customer Json ,
 	//and save it to the class instance variable.
 	//You should be creating more methods like this if you have more test data files like getPaymentOptions(), getProducts() etc.
 	public List<LoginDetails> getLoginDetailsData() {

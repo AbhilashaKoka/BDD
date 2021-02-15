@@ -1,30 +1,25 @@
 package stepDefinitions.web;
 import static org.testng.Assert.assertEquals;
-
 import java.util.List;
-
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-
 import Utility.Wait;
 import cucumber.TestContext;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import managers.FileReaderManager;
 import pageObjects.ForgotPasswordPage;
-import pageObjects.LogInPage;
 import pageObjects.PrivacyErrorPage;
 import pageObjects.SignInPage;
 import testData.LoginDetails;
 
 
-public class ForgotPassword_StepDefinitions  extends WebBase_TestStepDefinition{
+public class ForgotPassword_StepDefinitions  extends WebCommon_TestStepDefinition{
 	
 
 	private WebDriver driver=null; 
 	 TestContext testContext;
-	 LogInPage loginPage;
 	 PrivacyErrorPage privacyErr;	 
 	 String title=null;	
 	 ForgotPasswordPage forgotPasswordPage;
@@ -38,7 +33,7 @@ public class ForgotPassword_StepDefinitions  extends WebBase_TestStepDefinition{
 		  privacyErr=testContext.getPageObjectManager().getPrivacyErrorPage();
 		  forgotPasswordPage = testContext.getPageObjectManager().getForgotPasswordPage();
 		  signInPage=testContext.getPageObjectManager().getSignInPage();
-		  loginPage=testContext.getPageObjectManager().getLogInPage();
+		  
 		  title=testContext.getWebDriverManager().getTitle();	
 		  driver =testContext.getWebDriverManager().getDriver();	
 		}
@@ -56,7 +51,7 @@ public void click_on_Forgot_Password() {
 //	     else if(loginPage.ValidateHomePage(title)==true) {
 //	      System.out.println("User Successfully Navigate to  Home Page........!!!");
 	      Thread.sleep(5000);	      
-	      loginPage.ClickOnSignIn();
+	      signInPage.ClickOnSignIn();
 	      Thread.sleep(5000);
     	forgotPasswordPage.NavigateToForgotPassword();
   //  }

@@ -4,11 +4,11 @@ import cucumber.MobileTestContext;
 import cucumber.ScenarioContext;
 import cucumber.TestContext;
 
-public class MobileBase_TestStepDefinition {
+public class MobileCommon_TestStepDefinition {
 	private ScenarioContext scenarioContext;
 
 	
-	public MobileBase_TestStepDefinition(MobileTestContext testContext) {
+	public MobileCommon_TestStepDefinition(MobileTestContext testContext) {
 		super();
 		scenarioContext = testContext.getScenarioContext();
 	}

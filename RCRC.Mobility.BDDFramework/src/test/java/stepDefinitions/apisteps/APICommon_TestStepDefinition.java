@@ -4,6 +4,7 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertThat;
 
 import java.util.List;
+import java.util.Scanner;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -23,7 +24,7 @@ import io.restassured.response.Response;
 import io.restassured.response.ResponseOptions;
 import managers.FileReaderManager;
 
-public class APIBase_TestStepDefinition {
+public class APICommon_TestStepDefinition {
 	public static ResponseOptions<Response> response;
 	public static String token;
 	private static ExtentTest test;
@@ -33,7 +34,7 @@ public class APIBase_TestStepDefinition {
 	
 	private ScenarioContext scenarioContext;
 
-	public APIBase_TestStepDefinition(APITestContext testContext) {
+	public APICommon_TestStepDefinition(APITestContext testContext) {
 		super();
 		scenarioContext = testContext.getScenarioContext();
 		restAssuredExtensionv2=testContext.getRestAssuredExtensionv2();
@@ -72,6 +73,7 @@ public class APIBase_TestStepDefinition {
 			     APIVerification.responseCodeValiddation(response, 200);
 		         APIVerification.responseTimeValidation(response);
 			     assertThat(response.getStatusLine(),equalTo(statusLINE)); 
+			     
 				  }
 		   	  catch(Exception ex) 
 		    { 

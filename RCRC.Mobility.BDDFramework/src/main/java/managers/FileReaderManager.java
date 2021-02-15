@@ -3,7 +3,7 @@ import dataProvider.ConfigFileReader;
 import dataProvider.JsonDataReader;
 
 
-//singleton class, it create instance by itself and no need to create a instance
+//FYI:singleton class, it create instance by itself and no need to create a instance
 public class FileReaderManager
 {	
 	private static FileReaderManager fileReaderManager = new FileReaderManager();

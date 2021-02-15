@@ -1,5 +1,0 @@
-<ams:fault xmlns:ams="http://wso2.org/apimanager/security">
-  <ams:code>900901</ams:code>
-  <ams:message>Invalid Credentials</ams:message>
-  <ams:description>Access failure for API: /planning-stopseqcoord/1.0.0, version: 1.0.0 status: (900901) - Invalid Credentials. Make sure you have provided the correct security credentials</ams:description>
-</ams:fault>

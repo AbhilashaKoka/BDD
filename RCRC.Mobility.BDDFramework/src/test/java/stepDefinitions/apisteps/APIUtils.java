@@ -74,8 +74,6 @@ public class APIUtils extends ExtentReportUtils{
 	 {
 	LOGGER.info(Status.PASS);	
 	scenario.write(" Test Step is pass");
-
-//	scenarioContext.getContext(Context.USER);
       }
 	catch(Exception e){
 	e.printStackTrace();

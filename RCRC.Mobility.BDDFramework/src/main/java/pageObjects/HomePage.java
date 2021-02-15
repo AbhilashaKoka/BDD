@@ -38,7 +38,30 @@ public class HomePage {
 			 @FindBy(how = How.XPATH, using = "//*[@id=\\\"navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet\\\"]/ul[1]/li[9]") 
 			 private WebElement btn_aboutkaprat;
 			 
-			  
+			 public boolean ValidateHomePage(String title) {
+					
+					boolean bol=false; 
+					try
+					{
+							
+					if(title.equalsIgnoreCase("Home - Liferay DXP"))
+					 {
+					 System.out.println("User should able to navigate to  Home Page");
+					 }			  
+					  System.out.println("User should  not able to navigate to  Home Page");
+					 
+					   bol=true;
+					}	
+					
+					catch(Exception ex) {
+						System.out.println(ex.getCause());
+						System.out.println(ex.getMessage());
+						ex.getStackTrace();
+					}	
+					 
+					return bol;	
+					}
+				 
 			
 			 
 			 public void NavigateToHomePage( ) {				 

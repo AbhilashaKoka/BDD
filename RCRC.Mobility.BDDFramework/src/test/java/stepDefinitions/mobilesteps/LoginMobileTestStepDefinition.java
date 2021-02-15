@@ -16,7 +16,7 @@ import io.cucumber.java.en.When;
 import managers.FileReaderManager;
 
 
-public class LoginMobileTestStepDefinition extends MobileBase_TestStepDefinition{
+public class LoginMobileTestStepDefinition extends MobileCommon_TestStepDefinition{
 	MobileTestContext mobiletestContext;
 	public static AndroidDriver<MobileElement> mobiledriver=null;
 	private String MobileURL=null;

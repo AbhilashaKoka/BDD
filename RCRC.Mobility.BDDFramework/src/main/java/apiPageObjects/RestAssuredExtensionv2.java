@@ -24,8 +24,7 @@ public class RestAssuredExtensionv2
      * @param token
      */
     public RestAssuredExtensionv2(String uri, String method, String token, String baseURL) {
-        //Formulate the API url
-    	RestAssured.baseURI=baseURL;
+        RestAssured.baseURI=baseURL;
         this.url = baseURL + uri;
         this.method = method;
         if(token != null)

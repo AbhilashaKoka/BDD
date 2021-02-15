@@ -4,10 +4,10 @@ import ExtentReport.ExtentReportUtils;
 import cucumber.ScenarioContext;
 import cucumber.TestContext;
 
-public class WebBase_TestStepDefinition extends ExtentReportUtils {
+public class WebCommon_TestStepDefinition extends ExtentReportUtils {
 	 private ScenarioContext scenarioContext;
 
-	public WebBase_TestStepDefinition(TestContext testContext) 
+	public WebCommon_TestStepDefinition(TestContext testContext) 
 	{
 		scenarioContext = testContext.getScenarioContext();
 	}

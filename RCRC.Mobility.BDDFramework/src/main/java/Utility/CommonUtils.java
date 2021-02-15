@@ -19,7 +19,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import com.google.common.base.Function;
 import com.google.common.io.Files;
-
 import java.util.Date;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -36,7 +35,7 @@ public class CommonUtils{
     private static WebDriver driver;       
     private static StringBuilder text=new StringBuilder();
     private final int DEFAULT_TIMEOUT = 50;
-    private final long DEFAULT_POLLING_TIME = 1L;
+   // private final long DEFAULT_POLLING_TIME = 1L;
 
   public static String GetAttributeValue(WebElement element)
   {	  
@@ -798,6 +797,7 @@ public static  String DisplaytableColoumnfieldName(WebElement element)
 //		byte[] responseAsByteArray = ((ResponseBodyData) response).asByteArray();
 //		File targetFileForByteArray = new File(System.getProperty("user.dir")+"/APIresource/targetFileForByteArray.json");
 //		Files.write(responseAsByteArray, targetFileForByteArray);
+		scanner.close();
     	}
     	catch(Exception ex)
     	{

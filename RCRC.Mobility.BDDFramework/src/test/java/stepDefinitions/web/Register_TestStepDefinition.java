@@ -11,15 +11,17 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import managers.FileReaderManager;
-import pageObjects.LogInPage;
+import pageObjects.HomePage;
 import pageObjects.PrivacyErrorPage;
 import pageObjects.RegisterPage;
+import pageObjects.SignInPage;
 import testData.LoginDetails;
 
-    public class Register_TestStepDefinition extends WebBase_TestStepDefinition {
+    public class Register_TestStepDefinition extends WebCommon_TestStepDefinition {
 	private WebDriver driver=null; 
 	TestContext testContext;
-	 LogInPage loginPage;
+	SignInPage signInPage;
+	HomePage homePage;
 	 PrivacyErrorPage privacyErr;	 
 	 String title=null;	
 	 RegisterPage registerPage;
@@ -29,7 +31,8 @@ import testData.LoginDetails;
 		super(context);
 		 testContext = context;
 		  registerPage = testContext.getPageObjectManager().getRegisterPage();
-		  loginPage = testContext.getPageObjectManager().getLogInPage();
+		  signInPage=testContext.getPageObjectManager().getSignInPage();
+		  homePage=testContext.getPageObjectManager().getHomePage();
 		  privacyErr=testContext.getPageObjectManager().getPrivacyErrorPage();
 		  title=testContext.getWebDriverManager().getTitle();	
 		  driver =testContext.getWebDriverManager().getDriver();
@@ -44,7 +47,7 @@ import testData.LoginDetails;
 			 System.out.println("User Successfully Navigate through  Privacy  Page........!!!");
 			 LOGGER.info("User is on Home Page"+title+"");
 			 }
-		     else if(loginPage.ValidateHomePage(title)==true)
+		     else if(homePage.ValidateHomePage(title)==true)
 		     {
 		      System.out.println("User Successfully Navigate to  Home Page........!!!");
 		   	 }

@@ -5313,3 +5313,122 @@ Session ID: 4fc62abbabfb848a7de50d822afef53d
 2021-02-14 19:20:03,114 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -ERROR - 
 2021-02-14 19:20:03,115 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -INFO - I should see statuscode as HTTP/1.1 200 OK.........
 2021-02-14 19:20:03,115 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:18:56,844 - stepDefinitions.apisteps.APIUtils -INFO - I am inside setup
+2021-02-14 22:19:04,799 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:19:11,112 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -INFO - I perform GET operation for  tripRequest-shorttest-leasttime /trip/1.0.0/XML_TRIP_REQUEST2.....
+2021-02-14 22:19:11,113 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:19:11,113 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -ERROR - 
+2021-02-14 22:19:11,115 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -INFO - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-14 22:19:11,115 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:19:11,129 - stepDefinitions.apisteps.APIUtils -INFO - I am inside setup
+2021-02-14 22:19:29,521 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:19:29,523 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -ERROR - 
+2021-02-14 22:19:29,523 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -INFO - I perform GET operation for  tripRequest-shorttest-leastWalking/planning-trip/1.0.0/trip
+2021-02-14 22:19:29,524 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:19:29,524 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -ERROR - 
+2021-02-14 22:19:29,524 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -INFO - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-14 22:19:29,525 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:23:14,747 - stepDefinitions.apisteps.APIUtils -INFO - I am inside setup
+2021-02-14 22:23:37,651 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -ERROR - Connection to https://192.168.59.12:8243 refused
+2021-02-14 22:23:37,657 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:23:58,762 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -ERROR - Connection to https://192.168.59.12:8243 refused
+2021-02-14 22:23:58,764 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -INFO - I perform GET operation for  tripRequest-shorttest-leasttime /trip/1.0.0/XML_TRIP_REQUEST2.....
+2021-02-14 22:23:58,765 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:23:58,769 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -ERROR - 
+2021-02-14 22:23:58,770 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -INFO - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-14 22:23:58,772 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:23:58,807 - stepDefinitions.apisteps.APIUtils -INFO - I am inside setup
+2021-02-14 22:24:19,841 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -ERROR - Connection to https://192.168.59.12:8243 refused
+2021-02-14 22:24:19,843 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:24:19,847 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -ERROR - 
+2021-02-14 22:24:19,848 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -INFO - I perform GET operation for  tripRequest-shorttest-leastWalking/planning-trip/1.0.0/trip
+2021-02-14 22:24:19,850 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:24:19,852 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -ERROR - 
+2021-02-14 22:24:19,856 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -INFO - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-14 22:24:19,858 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:25:33,896 - stepDefinitions.apisteps.APIUtils -INFO - I am inside setup
+2021-02-14 22:25:57,067 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -ERROR - Connection to https://192.168.59.12:8243 refused
+2021-02-14 22:25:57,070 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:26:18,169 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -ERROR - Connection to https://192.168.59.12:8243 refused
+2021-02-14 22:26:18,170 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -INFO - I perform GET operation for  tripRequest-shorttest-leasttime /trip/1.0.0/XML_TRIP_REQUEST2.....
+2021-02-14 22:26:18,170 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:26:18,172 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -ERROR - 
+2021-02-14 22:26:18,173 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -INFO - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-14 22:26:18,173 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:26:18,191 - stepDefinitions.apisteps.APIUtils -INFO - I am inside setup
+2021-02-14 22:26:39,212 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -ERROR - Connection to https://192.168.59.12:8243 refused
+2021-02-14 22:26:39,214 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:26:39,217 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -ERROR - 
+2021-02-14 22:26:39,218 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -INFO - I perform GET operation for  tripRequest-shorttest-leastWalking/planning-trip/1.0.0/trip
+2021-02-14 22:26:39,219 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:26:39,220 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -ERROR - 
+2021-02-14 22:26:39,223 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -INFO - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-14 22:26:39,224 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:28:23,928 - stepDefinitions.apisteps.APIUtils -INFO - I am inside setup
+2021-02-14 22:28:41,148 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:28:49,785 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -INFO - I perform GET operation for  tripRequest-shorttest-leasttime /trip/1.0.0/XML_TRIP_REQUEST2.....
+2021-02-14 22:28:49,786 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:28:49,788 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -ERROR - 
+2021-02-14 22:28:49,791 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -INFO - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-14 22:28:49,792 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:28:49,813 - stepDefinitions.apisteps.APIUtils -INFO - I am inside setup
+2021-02-14 22:28:56,894 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:28:56,896 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -ERROR - 
+2021-02-14 22:28:56,897 - stepDefinitions.apisteps.ComplexGetData_TestStepDefinition -INFO - I perform GET operation for  tripRequest-shorttest-leastWalking/planning-trip/1.0.0/trip
+2021-02-14 22:28:56,897 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-14 22:28:56,898 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -ERROR - 
+2021-02-14 22:28:56,898 - stepDefinitions.apisteps.NonBDDStyleStepDefinition -INFO - I should see statuscode as HTTP/1.1 200 OK.........
+2021-02-14 22:28:56,898 - stepDefinitions.apisteps.APIUtils -INFO - pass
+2021-02-15 09:50:19,088 - stepDefinitions.web.WebUtils -INFO - launching URL
+2021-02-15 09:51:02,577 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 09:51:10,200 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User Navigate to Login Page
+2021-02-15 09:51:10,201 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 09:51:20,913 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User enters UserName englisheventcreator and Passwordtest
+2021-02-15 09:51:20,914 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User not able to SignIn with englisheventcreator and test
+2021-02-15 09:51:20,914 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 09:51:21,184 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User logged in  Successfully
+2021-02-15 09:51:21,184 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 09:51:22,184 - stepDefinitions.web.WebUtils -INFO - Driver close
+2021-02-15 09:58:52,935 - stepDefinitions.web.WebUtils -INFO - launching URL
+2021-02-15 10:00:40,597 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 10:01:15,212 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User Navigate to Login Page
+2021-02-15 10:01:15,213 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 10:01:23,822 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User enters UserName englisheventcreator and Passwordtest
+2021-02-15 10:01:23,823 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User not able to SignIn with englisheventcreator and test
+2021-02-15 10:01:23,824 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 10:01:24,103 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User logged in  Successfully
+2021-02-15 10:01:24,104 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 10:01:25,117 - stepDefinitions.web.WebUtils -INFO - Driver close
+2021-02-15 10:04:01,366 - stepDefinitions.web.WebUtils -INFO - launching URL
+2021-02-15 10:05:29,826 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 10:05:56,076 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User Navigate to Login Page
+2021-02-15 10:05:56,076 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 10:07:05,485 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User enters UserName englisheventcreator and Passwordtest
+2021-02-15 10:07:05,486 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User not able to SignIn with englisheventcreator and test
+2021-02-15 10:07:05,486 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 10:07:19,741 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User logged in  Successfully
+2021-02-15 10:07:19,742 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 10:07:20,687 - stepDefinitions.web.WebUtils -ERROR - Unexpected result for screenshot command: null
+2021-02-15 10:07:21,448 - stepDefinitions.web.WebUtils -INFO - Driver close
+2021-02-15 11:14:40,301 - stepDefinitions.web.WebUtils -ERROR - unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LTILPUN23200595', ip: '192.168.43.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\10655479\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6895d6240170329ee063b72d893fe161
+2021-02-15 11:14:40,349 - stepDefinitions.web.WebUtils -INFO - fail
+2021-02-15 11:14:41,305 - stepDefinitions.web.WebUtils -INFO - Driver close
+2021-02-15 11:16:14,569 - stepDefinitions.web.WebUtils -INFO - launching URL
+2021-02-15 11:16:14,664 - stepDefinitions.web.WebUtils -INFO - fail
+2021-02-15 11:16:15,727 - stepDefinitions.web.WebUtils -INFO - Driver close
+2021-02-15 11:16:48,331 - stepDefinitions.web.WebUtils -INFO - launching URL
+2021-02-15 11:18:10,256 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 11:19:03,863 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User Navigate to Login Page
+2021-02-15 11:19:03,863 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 11:19:13,545 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User enters UserName englisheventcreator and Passwordtest
+2021-02-15 11:19:13,545 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User not able to SignIn with englisheventcreator and test
+2021-02-15 11:19:13,545 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 11:20:47,707 - stepDefinitions.web.SignIn_TestStepDefinition -INFO - User logged in  Successfully
+2021-02-15 11:20:47,708 - stepDefinitions.web.WebUtils -INFO - Test Step is pass
+2021-02-15 11:20:48,943 - stepDefinitions.web.WebUtils -INFO - Driver close

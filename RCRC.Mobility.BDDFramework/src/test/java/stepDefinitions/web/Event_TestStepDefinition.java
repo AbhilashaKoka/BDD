@@ -10,12 +10,12 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import managers.FileReaderManager;
 import pageObjects.EventsPage;
-import pageObjects.LogInPage;
 import pageObjects.PrivacyErrorPage;
 import pageObjects.RegisterPage;
+import pageObjects.SignInPage;
 import testData.LoginDetails;
 
-public class Event_TestStepDefinition extends WebBase_TestStepDefinition {
+public class Event_TestStepDefinition extends WebCommon_TestStepDefinition {
 	 String title=null;
 	 String EventsName;
 	private WebDriver driver=null; 
@@ -23,7 +23,7 @@ public class Event_TestStepDefinition extends WebBase_TestStepDefinition {
      PrivacyErrorPage privacyErr;	 
 	 RegisterPage registerPage;
 	 EventsPage eventPage;
-	 LogInPage loginPage;
+	 SignInPage signInPage;
 	 private static Logger LOGGER=LogManager.getLogger(Event_TestStepDefinition.class);
 	 
 	 public Event_TestStepDefinition(TestContext context) {	
@@ -33,7 +33,7 @@ public class Event_TestStepDefinition extends WebBase_TestStepDefinition {
 		  privacyErr=testContext.getPageObjectManager().getPrivacyErrorPage();
 		  title=testContext.getWebDriverManager().getTitle();	
 		  driver =testContext.getWebDriverManager().getDriver();
-		  loginPage = testContext.getPageObjectManager().getLogInPage();
+		  signInPage = testContext.getPageObjectManager().getSignInPage();
 	}	
 	 
 	 
@@ -41,7 +41,7 @@ public class Event_TestStepDefinition extends WebBase_TestStepDefinition {
 	 public void user_SignIn_with_valid_credentials() {
 	    try {
 	    	 Wait.untilPageLoadComplete(driver);
-	 		if(loginPage.ClickOnSignIn()==true)
+	 		if(signInPage.ClickOnSignIn()==true)
 	 		{			
 	 	     System.out.println("User is in  SignIn Page...............!!!");
 	 	     LOGGER.info("User SignIn with valid credentials");
@@ -53,7 +53,7 @@ public class Event_TestStepDefinition extends WebBase_TestStepDefinition {
 			String uname=login.username;
 			String pwd=login.password;
 			String chkbox=login.rememberme;
-			  if(loginPage.LoginIn_SignInPage(uname, pwd, chkbox)==true)
+			  if(signInPage.LoginIn_SignInPage(uname, pwd, chkbox)==true)
 				{
 				  System.out.println("User Successfully  SignIn with credential.....!!!");
 				  LOGGER.info("User Successfully  SignIn with credential");
